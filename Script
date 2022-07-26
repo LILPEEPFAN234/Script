@@ -1,0 +1,12 @@
+ZetGGuser
+Zetgg
+
+
+{
+"random": random(1, 100),
+"random float": randomFloat(1, 100, 3),
+"bool": randomBool(),
+"date": date('Y-m-d', '1980-01-01', '2000-01-15'),
+"regEx": regex(/hello+ (world|to you)/),
+"enum": choice('json', 'generator', 'online'),
+"firstname": firstname(),
